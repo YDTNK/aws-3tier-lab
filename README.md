@@ -13,7 +13,7 @@ The goal is to understand how each layer interacts and to compare a simplified l
 
 ## Architecture Overview
 
-### 1. Current Architecture (Learning Environment)
+### 1. Actual Architecture (Learning Environment)
 
 This environment was built using a single VPC with basic subnet configuration for learning purposes.  
 The main objective was to verify connectivity between AWS services and understand their integration.
