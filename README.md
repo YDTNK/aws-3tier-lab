@@ -78,6 +78,19 @@ Key design principles:
 
 ---
 
+## Related Repository
+
+A Terraform-based version of this learning architecture is maintained separately.
+
+```text
+YDTNK/terraform-aws-lab
+```
+
+Use this repository for the original manual AWS 3-Tier hands-on evidence.  
+Use `YDTNK/terraform-aws-lab` for the IaC / Terraform implementation and later improvements.
+
+---
+
 ## Verification Evidence
 
 ### 1. EC2 Web Server Success
@@ -117,7 +130,14 @@ Key design principles:
 
 ## Future Improvements
 
-- Automate infrastructure using Terraform (IaC)
-- Add Auto Scaling for EC2 instances
-- Implement CloudWatch dashboards
-- Build CI/CD pipeline for deployment
+Terraform automation is handled in the related repository:
+
+```text
+YDTNK/terraform-aws-lab
+```
+
+For this manual hands-on repository, future improvements are limited to:
+
+- Add clearer comparison notes between learning and production architecture
+- Add CloudWatch dashboard evidence if needed
+- Link to Terraform implementation milestones when relevant
